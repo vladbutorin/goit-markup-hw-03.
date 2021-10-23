@@ -6,6 +6,35 @@
   --button-color: #212121;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 body {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
@@ -69,7 +98,7 @@ body {
 }
 
 .portfolio-item {
-  flex-basis: calc(100% / 3 30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
@@ -237,7 +266,7 @@ body {
 }
 
 .feature-item {
-  flex-basis: calc(100% / 4 30px);
+  flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
 
@@ -263,7 +292,7 @@ body {
 }
 
 .about-item {
-  flex-basis: calc(100% / 3 30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
@@ -293,7 +322,7 @@ body {
 }
 
 .command-item {
-  flex-basis: calc(100% / 4 30px);
+  flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
 
