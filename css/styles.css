@@ -207,10 +207,6 @@ body {
   margin-bottom: 30px;
 }
 
-.hero-container {
-  padding: 200px 237px;
-}
-
 .hero-button {
   display: block;
   margin: 0 auto;
@@ -272,11 +268,11 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  background: #e5e5e5;
+  background: #f5f4fa;
 }
 
 .feature-section {
-  background: #e5e5e5;
+  background: #f5f4fa;
   padding-bottom: 0;
 }
 
@@ -332,6 +328,14 @@ body {
   margin-left: 30px;
 }
 
+.command-item {
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .command-title {
   margin-bottom: 50px;
 }
@@ -346,11 +350,12 @@ body {
 }
 
 .command-item-description {
-  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .section-command {
-  background: #f5f4fa;
+  background: #e5e5e5;
   padding-top: 0;
 }
 
