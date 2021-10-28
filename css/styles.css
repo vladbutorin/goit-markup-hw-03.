@@ -271,6 +271,10 @@ body {
   background: #f5f4fa;
 }
 
+.portfolio-section {
+  background-color: #ffffff;
+}
+
 .feature-section {
   background: #f5f4fa;
   padding-bottom: 0;
@@ -356,7 +360,6 @@ body {
 
 .section-command {
   background: #e5e5e5;
-  padding-top: 0;
 }
 
 /* Button */
