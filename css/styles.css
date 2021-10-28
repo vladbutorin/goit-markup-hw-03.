@@ -342,6 +342,7 @@ body {
 
 .command-title {
   margin-bottom: 50px;
+  padding-top: 94px;
 }
 
 .command-title-name {
@@ -360,6 +361,7 @@ body {
 
 .section-command {
   background: #e5e5e5;
+  padding-top: 0;
 }
 
 /* Button */
